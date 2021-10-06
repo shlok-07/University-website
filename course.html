@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/university/university.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    <title>UNIVERSITY</title>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt="error"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="bi bi-chevron-double-down" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="bi bi-list" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Our Courses</h1>
+    </section>
+
+    <!-- ********************** courses content ********************************* -->
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Serve the nation by facilitating and modeling wholesome and socially relevant education to actualize the
+            values of humanism in accordance with the revelation in Jesus Christ.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Under Graduation</h3>
+                <p>Besides B. Tech programs, the university is presently offering M. Tech in Biotechnology,
+                    Biotechnology with specialization in Industrial Biotechnology and Medical Biotechnology, Civil
+                    Engineering </p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>specialization in Structural Engineering, Construction Management and Environmental Engineering,
+                    Computer Science and Engineering, Computer Science and Engineering with specialization in
+                    Information Security and Data Science</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Doctoral Phd is offered in Biotechnology, Bioinformatics, Civil Engineering, Computer Science and
+                    Engineering, Electronics and Communication Engineering, Humanities and Social Sciences, Mathematics,
+                    Physics and Materials Science.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ***************************** facilities section starts here ********************* -->
+
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Hold to the truth within yourselves as to the only lamp</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/library1.jpg" alt="error">
+                <h3>World Class Library</h3>
+                <p>When you absolutely positively have to know, ask a librarian. Google can bring you back 100,000
+                    answers, a librarian can bring you back the right one. The most important asset of any library goes
+                    home at night – the library staff. n the nonstop tsunami of global information.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/field.jpg" alt="error">
+                <h3>Largest Court</h3>
+                <p>Great stress is laid on students personality development. For this reason besides the Indoor Games
+                    and Gymnasium facilities, large playing and recreational complex is being developed. Already Basket
+                    Ball, Cricket, Volley Ball, Tennis, Football and Badminton facilities are functional.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/cafe.jpg" alt="error">
+                <h3>Tasty and Healthy Food</h3>
+                <p>Separate Annapurnas have already been established for Boys and Girls. These provide dining facilities
+                    to students and employees. These have a modern steam operated kitchen to ensure adequate hygiene and
+                    an automated Chapati making machine.
+                    i hope you like it
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ************************************* footer starts here ***************************** -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Highly rated public university located in Berkeley, California in the San Francisco Bay Area. It is a large
+            institution with an enrollment of 29,991 undergraduate students. <br> Admissions is competitive as the UC
+            Berkeley acceptance rate is 16%. </p>
+        <div class="social-links">
+            <a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a>
+            <a href="https://twitter.com/?lang=en" target="_blank"><i class="bi bi-twitter"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.youtube.com/" target="_blank"><i class="bi bi-youtube"></i></a>
+            <p>Copyright Made with <i class="bi bi-heart-fill"></i> by Shlok Singh</p>
+        </div>
+    </section>
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
